@@ -1,0 +1,13 @@
+Model,Hyperparameter,Optimal_Value
+Random Forest,mtry,2
+XGBoost,nrounds,50
+XGBoost,max_depth,2
+XGBoost,eta,0.3
+XGBoost,gamma,0
+XGBoost,colsample_bytree,0.8
+XGBoost,min_child_weight,1
+XGBoost,subsample,1
+Cubist,committees,10
+Cubist,neighbors,0
+SVM (Radial),sigma,0.0561266951876433
+SVM (Radial),C,0.5

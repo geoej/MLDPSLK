@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Allow project assets
+!.gitignore
+!README.md
+!code/
+!code/**
+!out/
+!out/**
+
+# OS / editor noise
+.DS_Store
+**/.DS_Store
+.Rhistory
+.RData
+.Rproj.user
