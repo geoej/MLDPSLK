@@ -1,13 +1,13 @@
-# Ignore everything by default
-*
+# Ignore everything by default, then whitelist repo layout
+/*
+!/README.md
+!/.gitignore
+!/code/
+!/out/
 
-# Allow project assets
-!.gitignore
-!README.md
-!code/
-!code/**
-!out/
-!out/**
+# Keep placeholder note in out/, ignore other generated files
+/out/*
+!/out/README.txt
 
 # OS / editor noise
 .DS_Store
